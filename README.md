@@ -1,38 +1,26 @@
-### Description
+### Welcome to Stina Collins' Portfolio!
 
-A simple portfolio template for developer/designers built with React. 
+Explore a sleek and elegant portfolio template tailored for developers and designers, crafted with React.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+### [Check out my portfolio](https://www.stinacollin.com)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+[![Stina Collins Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://www.stinacollin.com)
 
 ### Features
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+- Fully responsive design
+- Multi-page layout
+- Contact form powered by EmailJs
+- Integrated with React-Bootstrap
+- Easily edit content from one centralized location
 
-### Setup
+### Do you want to use my portfolio
 
-Get the code
+To get started with this template, follow these simple steps:
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+ Clone or download the code:
 
-<pre>yarn install</pre>
+   ```bash
+   git clone https://github.com/StinaCollin/test_portfolio.git
 
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+   If you find this portfolio nice, please give it a ⭐️

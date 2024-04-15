@@ -11,6 +11,16 @@
     border-color: var(--text-color) !important;
 }
 
+.tr-tasks {
+    /* margin-top: 10px;  */
+    margin-bottom: 100px;
+  }
+  
+
+.small-text {
+    font-size: 14px; /* Justera textstorleken efter behov */
+  }  
+
 .progress-title {
     font-size: 16px;
     font-weight: 700;

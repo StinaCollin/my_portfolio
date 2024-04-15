@@ -37,18 +37,24 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Experience</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
               <tbody>
                 {worktimeline.map((data, i) => {
                   return (
-                    <tr key={i}>
+                    <><tr key={i}>
                       <th scope="row">{data.jobtitle}</th>
                       <td>{data.where}</td>
                       <td>{data.date}</td>
-                    </tr>
+                    </tr><tr key={`${i}-tasks`} className="tr-tasks">
+                        <td colSpan="3" className="small-text">{data.tasks}</td>
+                      </tr>
+                      <tr>
+  <td colSpan="3"></td>
+</tr>
+                      </>
                   );
                 })}
               </tbody>

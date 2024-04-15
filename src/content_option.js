@@ -1,60 +1,66 @@
-const logotext = "JOHN";
+import yourImgUrl from "./assets/images/stina4.png";
+
+
+const logotext = "STINA.I.COLLIN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Stina Collin's Portfolio",
+    description: "I’m Stina Collin, just finishing my studies in web development. I'm a dedicated developer fueled by a passion for web development. I thrive on the challenge of creating engaging and innovative websites. With a solid background in various aspects of design, I'm always eager to tackle new projects and push the boundaries of what's possible.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hi there, I'm Stina Collin!",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I'm a passionate developer...",
+        second: "I love coding and...",
+        third: "Turning ideas into magical websites <3",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Based in Stockholm, Sweden, I'm a dedicated developer fueled by a passion for web development. I thrive on the challenge of creating engaging and innovative websites. With a solid background in various aspects of design, I'm always eager to tackle new projects and push the boundaries of what's possible.",
+    your_img_url: yourImgUrl,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Lil about Me, Myself n' I",
+    aboutme: "Hi there, it's great to meet you! I'm Stina, a lifelong designer and artist. Creativity runs in my blood since birth, thanks to my mother who is a celebrated and eminent artist and dollhouse maker. I founded my first company at just 15, specializing in clothing design, and was self-learned in developing my own webshop. Since then, I've launched two more ventures, honing my skills in various design fields. With a solid background in design, I enrolled at IT Högskolan to gain strong skills in development as well. I'm always eager for new challenges, and I'm a social butterfly, always keen to meet new people and expand my horizons. And last but not least, I'm always wearing a smile and maintaining a positive attitude!",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "IT högskolan",
+        where: "JavaScript Developer",
+        date: "2022-2024",
+        tasks: "Studying web development and programming. - JavaScript, React, Node.js, HTML, CSS, UX/UI design, Backend development, Databases, Testing & TypeScript, CRUD, REST API, Git, Agile, LCM ",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Clothes designer",
+        where: "Misumi, own brand & company.",
+        date: "2001-2018",
+        tasks: "- Designing and producing clothes. - Marketing and sales. - Creating website and webshop.",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Graphic Design & Media communication",
+        where: "Sollentuna Fria Gymnasium",
+        date: "2000-2003",
+        tasks: "Highest grade in Graphic Design & Computer Sciense. - Graphic design, Web design, photography, video editing, 3D animation, programming, marketing, sales, project management etc.",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "HTML",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "JavaScript",
         value: 85,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "CSS",
+        value: 85,
     },
     {
         name: "React",
-        value: 60,
+        value: 85,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "UX/UI Design",
+        value: 80,
     },
 ];
 
@@ -73,7 +79,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "../assets/images/stina.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -136,20 +142,20 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "misumi_wear@yahoo.se",
+    YOUR_FONE: "(+46) 70 825 23 26",
+    YOUR_CITY: "Brottby north of Stockholm, Sweden",
+    description: "Feel free to contact me about anything :) maybe for a project or collaboration. I am always open to new challenges and opportunities.",
+    YOUR_SERVICE_ID: "service_ii9y4or",
+    YOUR_TEMPLATE_ID: "template_1rp74jb",
+    YOUR_USER_ID: "UcA1hoEJ89eUGqq8b",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/StinaCollin",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/stina-collin-906a00254/",
+    instagram: "https://www.instagram.com/kristallkluster/",
     twitter: "https://twitter.com",
 };
 export {

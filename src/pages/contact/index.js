@@ -109,6 +109,7 @@ export const ContactUs = () => {
                 ""
               )}
             </address>
+            <p><strong>Location: </strong>{contactConfig.YOUR_CITY}</p>
             <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
