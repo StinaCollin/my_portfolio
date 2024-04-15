@@ -4,7 +4,7 @@ Explore a sleek and elegant portfolio template tailored for developers and desig
 
 ### [Check out my portfolio](https://www.stinacollin.com)
 
-[![Stina Collins Portfolio](src/assets/images/react%20portfolio%20gif.gif)](https://www.stinacollin.com)
+[![Stina Collins Portfolio](src/assets/images/stina_avatar_dark.png)](https://www.stinacollin.com)
 
 ### Features
 
