@@ -40,26 +40,29 @@ export const About = () => {
             <h3 className="color_sec py-4">Experience</h3>
           </Col>
           <Col lg="7">
-            <table className="table caption-top">
-              <tbody>
-                {worktimeline.map((data, i) => {
-                  return (
-                    <><tr key={i}>
-                      <th scope="row">{data.jobtitle}</th>
-                      <td>{data.where}</td>
-                      <td>{data.date}</td>
-                    </tr><tr key={`${i}-tasks`} className="tr-tasks">
-                        <td colSpan="3" className="small-text">{data.tasks}</td>
-                      </tr>
-                      <tr>
-  <td colSpan="3"></td>
-</tr>
-                      </>
-                  );
-                })}
-              </tbody>
-            </table>
-          </Col>
+  <table className="table caption-top">
+    <tbody>
+      {worktimeline.map((data, i) => (
+        <React.Fragment key={i}>
+          <tr>
+            <th scope="row">{data.jobtitle}</th>
+            <td>{data.where}</td>
+            <td>{data.date}</td>
+          </tr>
+          <tr key={`${i}-tasks`} className="tr-tasks">
+            <td colSpan="3">
+              <ul className="task-list">
+                {data.tasks.split("\n").map((task, index) => (
+                  <li key={index}>{task.trim()}</li>
+                ))}
+              </ul>
+            </td>
+          </tr>
+        </React.Fragment>
+      ))}
+    </tbody>
+  </table>
+</Col>
         </Row>
         <Row className="sec_sp">
           <Col lg="5">

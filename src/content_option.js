@@ -26,20 +26,35 @@ const worktimeline = [{
         jobtitle: "IT högskolan",
         where: "JavaScript Developer",
         date: "2022-2024",
-        tasks: "Studying web development and programming. - JavaScript, React, Node.js, HTML, CSS, UX/UI design, Backend development, Databases, Testing & TypeScript, CRUD, REST API, Git, Agile, LCM ",
-    },
-    {
+        tasks: `Studying web development and programming with emphasis on:
+        - JavaScript, React, Node.js
+        - HTML, CSS
+        - UX/UI design
+        - Backend development, Databases, Testing & TypeScript
+        - CRUD, REST API, Git, Agile, LCM`
+      },
+      {
         jobtitle: "Clothes designer",
-        where: "Misumi, own brand & company.",
+        where: "Misumi, own brand & company",
         date: "2001-2018",
-        tasks: "- Designing and producing clothes. - Marketing and sales. - Creating website and webshop.",
+        tasks: `Creating website and webshop, managing the production process from design to finished product, and developing marketing strategies to promote the clothing brand and increase sales.
+        - Designed and produced clothes, showcasing attention to detail and innovative design concepts.
+        - Executed marketing and sales initiatives to enhance brand visibility and drive revenue growth.
+        - Applied expertise in textiles and materials to ensure product quality and functionality.
+        - Employed problem-solving skills to address customer needs and preferences, enhancing overall satisfaction.
+        `
     },
     {
         jobtitle: "Graphic Design & Media communication",
         where: "Sollentuna Fria Gymnasium",
         date: "2000-2003",
-        tasks: "Highest grade in Graphic Design & Computer Sciense. - Graphic design, Web design, photography, video editing, 3D animation, programming, marketing, sales, project management etc.",
-    },
+        tasks: `Obtained highest grade in Graphic Design & Computer Science, showcasing proficiency in design and technology.
+        - Developed skills in graphic design, web design, and project management, essential for web development roles.
+        - Applied extensive knowledge in graphic design and media communication to create engaging visual content.
+        - Gained hands-on experience with various media formats, including print materials, digital media, and video production.
+        - Managed projects in the design and media field, ensuring timely completion and high-quality deliverables.
+        - Utilized understanding of marketing principles to craft impactful designs and communication strategies.`
+    }    
 ];
 
 const skills = [{
