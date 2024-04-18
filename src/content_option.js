@@ -27,10 +27,10 @@ const worktimeline = [{
         where: "JavaScript Developer",
         date: "2022-2024",
         tasks: `Studying web development and programming with emphasis on:
-        - JavaScript, React, Node.js
+        - JavaScript, React, Node.js, Testing & TypeScript
         - HTML, CSS
         - UX/UI design
-        - Backend development, Databases, Testing & TypeScript
+        - Backend development, Databases
         - CRUD, REST API, Git, Agile, LCM`
       },
       {
@@ -40,7 +40,6 @@ const worktimeline = [{
         tasks: `Creating website and webshop, managing the production process from design to finished product, and developing marketing strategies to promote the clothing brand and increase sales.
         - Designed and produced clothes, showcasing attention to detail and innovative design concepts.
         - Executed marketing and sales initiatives to enhance brand visibility and drive revenue growth.
-        - Applied expertise in textiles and materials to ensure product quality and functionality.
         - Employed problem-solving skills to address customer needs and preferences, enhancing overall satisfaction.
         `
     },
@@ -48,13 +47,24 @@ const worktimeline = [{
         jobtitle: "Graphic Design & Media communication",
         where: "Sollentuna Fria Gymnasium",
         date: "2000-2003",
-        tasks: `Obtained highest grade in Graphic Design & Computer Science, showcasing proficiency in design and technology.
-        - Developed skills in graphic design, web design, and project management, essential for web development roles.
+        tasks: `Obtained highest grade in Graphic Design & Computer Science subjects, showcasing proficiency in design and technology.
+        - Developed skills in graphic design, web design, and project management, essential for design & development roles.
         - Applied extensive knowledge in graphic design and media communication to create engaging visual content.
         - Gained hands-on experience with various media formats, including print materials, digital media, and video production.
         - Managed projects in the design and media field, ensuring timely completion and high-quality deliverables.
         - Utilized understanding of marketing principles to craft impactful designs and communication strategies.`
-    }    
+    },
+    {
+        jobtitle: "Lia praktik",
+        where: "Sollentuna Fria Gymnasium",
+        date: "2000-2003",
+        tasks: `Obtained highest grade in Graphic Design & Computer Science subjects, showcasing proficiency in design and technology.
+        - Developed skills in graphic design, web design, and project management, essential for design & development roles.
+        - Applied extensive knowledge in graphic design and media communication to create engaging visual content.
+        - Gained hands-on experience with various media formats, including print materials, digital media, and video production.
+        - Managed projects in the design and media field, ensuring timely completion and high-quality deliverables.
+        - Utilized understanding of marketing principles to craft impactful designs and communication strategies.`
+    }     
 ];
 
 const skills = [{
@@ -80,11 +90,11 @@ const skills = [{
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development",
+        description: "I have experience in developing websites using HTML, CSS, JavaScript, React, and Node.js. Create responsive and user-friendly websites that meet your needs and exceed your expectations. Am always eager to tackle new projects and push the boundaries of what's possible.",
     },
     {
-        title: "Mobile Apps",
+        title: "UI & UX Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
@@ -94,12 +104,12 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "../assets/images/stina.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://www.stinacollin.com/images/stina_avatar_dark.png",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "https://www.stinacollin.com/images/stina_avatar_dark.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -124,37 +134,26 @@ const dataportfolio = [{
         link: "#",
     },
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
 ];
+
+const projectinfo = [
+    {
+      what: "11I did... lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  ", 
+      where: "It was.",
+      how: "I made all.",
+    },
+    {
+        what: "22I did...",
+        where: "It was.",
+        how: "I made all.",
+    },    
+    {
+        what: "333I did...",
+        where: "It was.",
+        how: "I made all.",
+      },
+    // Fler objekt kan läggas till här om du behöver
+  ];
 
 const contactConfig = {
     YOUR_EMAIL: "misumi_wear@yahoo.se",
@@ -184,4 +183,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    projectinfo,
 };
