@@ -8,6 +8,7 @@ import {
   worktimeline,
   skills,
   services,
+  funnyFacts,
 } from "../../content_option";
 
 export const About = () => {
@@ -105,6 +106,18 @@ export const About = () => {
             })}
           </Col>
         </Row>
+        <Row className="sec_sp">
+  <Col lg="5">
+    <h3 className="color_sec py-4">Funny Facts</h3>
+  </Col>
+  <Col lg="7">
+    <ul>
+      {funnyFacts.map((fact, i) => (
+        <li key={i}>{fact.fact}</li>
+      ))}
+    </ul>
+  </Col>
+</Row>
 
       </Container>
     </HelmetProvider>

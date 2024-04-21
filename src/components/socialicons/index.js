@@ -43,20 +43,20 @@ export const Socialicons = (params) => {
             </a>
           </li>
         )}
-        {socialprofils.twitter && (
+        {/* {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
               <FaTwitter />
             </a>
           </li>
-        )}
-        {socialprofils.youtube && (
+        )} */}
+        {/* {socialprofils.youtube && (
           <li>
             <a href={socialprofils.youtube}>
               <FaYoutube />
             </a>
           </li>
-        )}
+        )} */}
         {socialprofils.twitch && (
           <li>
             <a href={socialprofils.twitch}>

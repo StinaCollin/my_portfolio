@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom"; // Importera useParams för att hämta id från URL:en
 import { dataportfolio, projectinfo } from "../../content_option";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import "./style.css";
 import { Row, Col } from "reactstrap";
 
@@ -11,6 +12,12 @@ const ProjectDetails = () => {
   const info = projectinfo[id]; // Hämta projektinfo baserat på id
 
   return (
+    <HelmetProvider>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Project Details</title>
+        <meta name="description" content="Details about specific project" />
+      </Helmet>
     <div className="project-details-container">
      <h2 className="project-details-description">{project.description}</h2>
       <Row>
@@ -19,16 +26,17 @@ const ProjectDetails = () => {
         </Col>
         <Col lg="6">
           <div className="project-details-content">
-            <h3>What I did:</h3>
+            <h3>What:</h3>
             <p>{info.what}</p>
-            <h3>Where it was:</h3>
+            <h3>Where:</h3>
             <p>{info.where}</p>
-            <h3>How I made all:</h3>
+            <h3>How:</h3>
             <p>{info.how}</p>
           </div>
         </Col>
       </Row>
     </div>
+    </HelmetProvider>
   );
 };
 
