@@ -66,23 +66,23 @@ const worktimeline = [{
 
 const skills = [{
         name: "HTML",
-        value: 90,
+        value: 100,
     },
     {
         name: "JavaScript",
-        value: 90,
+        value: 100,
     },
     {
         name: "CSS",
-        value: 90,
+        value: 100,
     },
     {
         name: "React",
-        value: 90,
+        value: 100,
     },
     {
         name: "UX/UI Design",
-        value: 80,
+        value: 100,
     },
 ];
 
@@ -109,13 +109,13 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://www.stinacollin.com/images/stina_avatar_dark.png",
+        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
         description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
         link: "#",
     },
     {
-        img: "https://www.stinacollin.com/images/stina_avatar_dark.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitesmall.png",
+        description: "Building My Own Web Application Using React JS",
         link: "#",
     },
     {
@@ -143,18 +143,33 @@ const dataportfolio = [{
 
 const projectinfo = [
     {
-      what: "11I did... lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.  ", 
-      where: "It was.",
-      how: "I made all.",
+      wisdom: "The power of creativity lies in the depths of your consciousness. Just find it and let it flow.",  
+      intro: "In this project, I embarked on the journey of building my own Portfolio web application. As an aspiring web developer, I sought out a technology stack that resonated with my preferences and goals. The objective was clear: to create a dynamic and responsive web app that effectively showcases my skills and projects. After exploring various options, I found React JS to be the ideal choice for me. React JS, a powerful JavaScript library for building user interfaces, provided me with the tools and flexibility needed to bring my vision to life. ",
+      what: "Throughout the development process, I followed a structured workflow to bring my web application to life. I meticulously planned each step, from initial concept and design to coding and testing. Along the way, I encountered various challenges, such as implementing complex features or troubleshooting unexpected errors. However, through perseverance and problem-solving, I was able to overcome these challenges and successfully deliver a high-quality web application. These challenges provided valuable learning experiences and insights that will inform my future development endeavors.",
+      how: `The culmination of my efforts resulted in a fully functional web application that meets the project's objectives and showcases my skills effectively. However, the journey doesn't end here. Looking to the future, I see opportunities for further refinement and expansion of the application. This may include adding new features, optimizing performance, or incorporating user feedback to enhance usability. Reflecting on this project, I've gained valuable insights and knowledge that will undoubtedly influence my future development projects, guiding me towards continued growth and improvement as a web developer.
+
+      I chose to structure my portfolio projects around these three points, aiming to offer visitors a comprehensive insight into my work process, the challenges I've overcome, and my future aspirations for each project. This strategy not only demonstrates my technical abilities but also underscores my capacity to adapt, learn, and grow as a developer.`,
+      images: [
+        "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
+        "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
+        "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
+      ]
     },
     {
-        what: "22I did...",
-        where: "It was.",
+        wisdom: "Wisdom of life consists in the elimination of non-essentials.",  
+        intro: "22In this project, I embarked on the journey of building my own Portfolio web application using React JS. As an aspiring web developer, I sought out a technology stack that resonated with my preferences and goals. After exploring various options, I found React JS to be the ideal choice for me. React JS, a powerful JavaScript library for building user interfaces, provided me with the tools and flexibility needed to bring my vision to life. ", 
+        what: "22It was.",
         how: "I made all.",
+      images: [
+        "https://www.stinacollin.com/images/stina.png",
+        "https://www.stinacollin.com/images/stina.png",
+        "https://www.stinacollin.com/images/stina.png"
+      ]
     },    
     {
-        what: "333I did...",
-        where: "It was.",
+        wisdom: "The power of creativity lies in the depths of your consciousness. Just find it and let it flow.",  
+        intro: "In this project, I embarked on the journey of building my own Portfolio web application using React JS. As an aspiring web developer, I sought out a technology stack that resonated with my preferences and goals. After exploring various options, I found React JS to be the ideal choice for me. React JS, a powerful JavaScript library for building user interfaces, provided me with the tools and flexibility needed to bring my vision to life. ", 
+        what: "It was.",
         how: "I made all.",
       },
     // Fler objekt kan läggas till här om du behöver

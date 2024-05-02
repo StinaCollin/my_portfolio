@@ -5,7 +5,7 @@
     --text-color: #564f4f; /* Mörkgrå för text */
     --text-color-2: #6c6666; /* Ljusgrå för sekundärtext */
     --text-color-3: #a97b7b; /* Djuprosa för accentfärg */
-    --overlay-color: rgba(107, 96, 96, 0.63); /* Ljusgrå med 63% opacitet för överlägg */
+    --overlay-color: rgba(107, 96, 96, 0.53); /* Ljusgrå med 63% opacitet för överlägg */
 }
 
 [data-theme="dark"] {

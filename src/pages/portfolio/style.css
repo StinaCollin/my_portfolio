@@ -32,7 +32,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(var(--overlay-color), 0.1);
+    background: var(--overlay-color);
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -112,6 +112,13 @@
     height: auto;
     margin-bottom: 1rem;
   }
+
+  .wisdom {
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 2rem;
+
+  }
   
   .project-details-content h3 {
     font-size: 16px;
@@ -124,7 +131,7 @@
   .project-details-content p {
     font-size: 14px;
     margin-bottom: 1rem;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto; 
   
   }

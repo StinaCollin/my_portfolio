@@ -98,7 +98,8 @@ export const About = () => {
                         width: `${data.value}%`,
                       }}
                     >
-                      <div className="progress-value">{data.value}%</div>
+                      <div className="progress-value">Check</div>
+                      {/* <div className="progress-value">{data.value}%</div> */}
                     </div>
                   </div>
                 </div>
