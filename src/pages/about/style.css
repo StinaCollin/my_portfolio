@@ -55,6 +55,15 @@
     color: var(--text-color);
 }
 
+.checkmark-img {
+    position: absolute;
+    top: -40px;
+    right: 8px;
+    width: 30px; /* Justera bredden efter behov */
+    height: auto;
+  }
+  
+
 @-webkit-keyframes animate-positive {
     0% {
         width: 0%;

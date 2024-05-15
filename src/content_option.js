@@ -108,33 +108,34 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+        {
+        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitelayout.png",
+        description: "Building My Own Web Application Using React JS",
+        link: "#",
+    },
+    {
         img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
         description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
         link: "#",
     },
     {
-        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitesmall.png",
-        description: "Building My Own Web Application Using React JS",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -150,9 +151,18 @@ const projectinfo = [
 
       I chose to structure my portfolio projects around these three points, aiming to offer visitors a comprehensive insight into my work process, the challenges I've overcome, and my future aspirations for each project. This strategy not only demonstrates my technical abilities but also underscores my capacity to adapt, learn, and grow as a developer.`,
       images: [
-        "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
-        "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
-        "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
+        {
+          src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite-figma-colorchart.png",
+          alt: "Project Image 1, Color Chart"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite-project-details-summaryfigma.png",
+          alt: "Project Image 2, Project Details Summary"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
+          alt: "Project Image 3"
+        }
       ]
     },
     {

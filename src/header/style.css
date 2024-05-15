@@ -161,6 +161,82 @@
     padding-left: 0;
 }
 
+/* style expanded menu */
+
+.expand__button {
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    flex: 1;
+    
+}
+
+/* Pilen som pekar mot vänster */
+.expand__button .arrow-left {
+    width: 0;
+    height: 0;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    margin-right: 2px; 
+    margin-left: 12px;
+    background-color: var(--primary-color);
+    display: flex; /* Använd flexbox för att centrera ikonen */
+    align-items: center; /* Centrera ikonen vertikalt */
+    justify-content: center; /* Centrera ikonen horisontellt */
+    width: 30px; /* Bredden på knappen */
+    height: 30px; /* Höjden på knappen */
+}
+
+/* Hovringseffekt */
+.expand__button:hover
+.expand__button:focus {
+    color: var(--text-color);
+    box-shadow: unset;
+}
+
+/* Expanded navbar style */
+
+.ny-navbar {
+  background-color: var(--primary-color);
+  color: var(--text-color-2);
+  padding: 5px 15px;;
+  display: flex; /* Använd flexbox för horisontell layout */
+  align-items: center; /* Centrera innehållet vertikalt */
+}
+
+.ny-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Använd flexbox för att placera länkarna horisontellt */
+  }
+
+.ny-navbar ul li {
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 8px; 
+  margin-bottom: 8px; 
+}
+
+.ny-navbar ul li a {
+  color: var(--text-color-2);
+  text-decoration: none;
+}
+
+.ny-navbar button {
+  background-color: transparent;
+  color: var(--text-color-2);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .expand__button {
+      display: none;
+    }
+  }
+
 @media (min-width: 992px) {
     .menu__container {
         margin-left: 33.3333%;

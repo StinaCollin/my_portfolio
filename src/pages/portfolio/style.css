@@ -67,6 +67,12 @@
     color: var(--secondary-color);
 }
 
+.po_item:hover .content p {
+    opacity: 1;
+    color: var(--bg-color);
+    font-weight: 500;
+}
+
 .po_item .content a {
     background: var(--bg-color);
     border: solid 1px var(--text-color);
@@ -80,89 +86,3 @@
 }
 
 
- /* Project Details Section */
-
- .project-details-container {
-    margin-bottom: calc(3rem + 5.128vw);
-    display: flex; /* Use flexbox to create a responsive layout. */
-    flex-direction: column; /* Column layout for the project details section. */
-    align-items: center;
-    text-align: center; 
-  }
-
-  .project-details-description {
-    max-width: 600px;
-    margin-bottom: 5%;
-    margin-top: 5%;
-  }
-
-  .project-img-column img {
-    max-width: 80%; /* Limit the width of the image to a maximum of 100% of its parent element. */
-    height: auto; /* Allow the height of the image to adjust automatically based on the width. */
-  }
-  
-  .project-details-content {
-   
-    padding: 0 1rem;
-    justify-content: center;
-  }
-  
-  .project-details-image {
-    max-width: calc(100% / 3); 
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .wisdom {
-    font-weight: 100;
-    font-style: italic;
-    margin-bottom: 2rem;
-
-  }
-  
-  .project-details-content h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    justify-content: center;
-  }
-  
-  .project-details-content p {
-    font-size: 14px;
-    margin-bottom: 1rem;
-    max-width: 600px;
-    margin: 0 auto; 
-  
-  }
-
-  .project-image {
-    max-width: calc(100% / 3);
-    /* cursor: pointer; */
-  }
-  
-  .image-container {
-    overflow: hidden; 
-  }
-    
-  @media (min-width: 1000px) {
-    .project-img-column {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: right;
-    }
-  }
-
-  /* Use media queries to make the project details section responsive */
-  @media (max-width: 600px) {
-    .project-details-content p {
-      max-width: 420px;
-    }
-  }
-
-  /* Use media queries to make the project details section responsive */
-  @media (max-width: 500px) {
-    .project-details-content p {
-      max-width: 300px; 
-    }
-  }

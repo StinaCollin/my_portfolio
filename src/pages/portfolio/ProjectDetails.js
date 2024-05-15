@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom"; // Importera useParams för att hämta id från URL:en
 import { dataportfolio, projectinfo } from "../../content_option";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import "./style.css";
-import { Row, Col } from "reactstrap";
+import { Row, Col, Modal, ModalBody } from "reactstrap";
+import "./ProjectDetailsStyle.css";
 
 const ProjectDetails = () => {
-  const { id } = useParams(); // Hämta id från URL:en
-
-  const project = dataportfolio[id]; // Hämta projektdata baserat på id
-  const info = projectinfo[id]; // Hämta projektinfo baserat på id
+    const { id } = useParams();
+    const project = dataportfolio[id];
+    const info = projectinfo[id];
+    const [showModal, setShowModal] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedAlt, setSelectedAlt] = useState(null);
+  
+const handleImageClick = (image, alt) => {
+    setSelectedImage(image);
+    setSelectedAlt(alt);
+    setShowModal(true);
+  };
 
   return (
     <HelmetProvider>
@@ -26,7 +34,7 @@ const ProjectDetails = () => {
         </Col>
         <Col lg="6">
           <div className="project-details-content">
-          <h3 className="wisdom">"{info.wisdom}"</h3>
+          <h2 className="wisdom">"{info.wisdom}" / Stina Collin</h2>
             <h3>Project Description:</h3>
             <p>{info.intro}</p>
             <h3>Work Process and Challenges:</h3>
@@ -37,13 +45,30 @@ const ProjectDetails = () => {
         </Col>
       </Row>
       <Row>
-      {info.images.map((image, index) => (
-        <Col key={index} className="project-small-image-column">
-          <img src={image} alt="" className="project-small-image" />
-        </Col>
+      <h3 className="project-images-header">Project Detail Images</h3>
+          {info.images.map((image, index) => (
+            <Col
+              key={index}
+              className="project-small-image-column"
+              onClick={() => handleImageClick(image.src, image.alt)}
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                title={image.alt}
+                className="project-small-image"
+              />
+            </Col>
           ))}
         </Row>
-    </div>
+      </div>
+      {/* Modal for displaying enlarged image */}
+      <Modal isOpen={showModal} toggle={() => setShowModal(!showModal)}>
+        <ModalBody>
+          <p>{selectedAlt}</p>
+          <img src={selectedImage} alt={selectedAlt} className="enlarged-image" />
+        </ModalBody>
+      </Modal>
     </HelmetProvider>
   );
 };

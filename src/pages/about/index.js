@@ -98,7 +98,13 @@ export const About = () => {
                         width: `${data.value}%`,
                       }}
                     >
-                      <div className="progress-value">Check</div>
+                     {data.value === 100 && (
+                     <img
+                      src="https://www.stinacollin.com/images/checkmark.png"
+                      alt="Checkmark"
+                      className="checkmark-img"
+                     />
+                     )}
                       {/* <div className="progress-value">{data.value}%</div> */}
                     </div>
                   </div>
