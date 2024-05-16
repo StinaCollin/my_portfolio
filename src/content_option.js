@@ -20,7 +20,7 @@ const introdata = {
 
 const dataabout = {
     title: "Lil about Me, Myself n' I",
-    aboutme: "Hi there, it's a pleasure to make your acquaintance! I'm Stina, a lifelong designer and artist. Creativity runs in my blood since birth, thanks to my mother who is a celebrated and eminent artist and dollhouse maker. I founded my first company at just 15, specializing in clothing design, and was self-learned in developing my own webshop. Since then, I've launched two more ventures, honing my skills in various design fields. With a solid background in design, I enrolled at IT Högskolan to gain strong skills in development as well. I'm always eager for new challenges, and I'm a social butterfly, always keen to meet new people and expand my horizons. And last but not least, I'm always wearing a smile and maintaining a positive attitude!",
+    aboutme: "Hi there, it's a pleasure to make your acquaintance! I'm Stina, a lifelong designer and artist. Creativity runs in my blood since birth, thanks to my mother who is a celebrated and eminent dollhouse maker and artist. I founded my first company at just 15, specializing in clothing design, and was self-learned in developing my own webshop. With a solid background in design, I enrolled at IT Högskolan to gain strong skills in development as well. I'm always eager for new challenges, and I'm a social butterfly, always keen to meet new people and expand my horizons. And last but not least, I'm always wearing a smile and maintaining a positive attitude!",
 };
 const worktimeline = [{
         jobtitle: "IT högskolan",
@@ -58,8 +58,8 @@ const worktimeline = [{
         jobtitle: "Lia Internship",
         where: "Nilo Collaborations",
         date: "2023 & 2024",
-        tasks: `React & Styled Components Internship Experience at Nilo Collaborations, developing their meeting app for the company.
-        During my internship at Nilo Collaborations, I had the opportunity to work on developing their meeting app for the company. Throughout this experience, I undertook a variety of tasks within their meeting website and app, ranging from addressing CSS and HTML issues to tackling more complex CRUD tasks. This hands-on experience allowed me to further refine my skills in front-end development and deepen my understanding of React and Styled Components. I gained valuable insights into the development process and learned how to effectively troubleshoot and solve problems in a dynamic environment. Overall, this internship was a valuable opportunity for me to apply my knowledge in a real-world setting and expand my expertise in web development.
+        tasks: `React & Styled Components Internship Experience at Nilo Collaborations. 30 weeks internship.
+        During my internship at Nilo Collaborations, I had the opportunity to work on developing their meeting app for the company. Throughout this experience, I undertook a variety of tasks within their meeting website and app, ranging from addressing CSS and HTML issues to tackling more complex tasks. This hands-on experience allowed me to further refine my skills in front-end development and deepen my understanding of React and Styled Components. I gained valuable insights into the development process and learned how to effectively troubleshoot and solve problems in a dynamic environment. Overall, this internship was a valuable opportunity for me to apply my knowledge in a real-world setting and expand my expertise in web development.
         `
     }     
 ];
@@ -199,7 +199,7 @@ const projectinfo = [
         fact: "I bought my own house at the age of 25.",
     },
     {
-        fact: "I have hiked 35 km in one go.",
+        fact: "I have hiked 40 km in one go.",
     },
     {
         fact: "I have a hobby business selling crystals.",
