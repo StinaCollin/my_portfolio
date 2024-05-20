@@ -21,6 +21,6 @@ To get started with this template, follow these simple steps:
  Clone or download the code:
 
    ```bash
-   git clone https://github.com/StinaCollin/test_portfolio.git
+   git clone https://github.com/StinaCollin/my_portfolio.git
 
    If you find this portfolio nice, please give it a ⭐️
