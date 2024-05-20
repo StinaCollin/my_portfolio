@@ -30,18 +30,18 @@ const Headermain = () => {
             {logotext}
           </Link>
           <div className="d-flex align-items-center">
+            <div  className="theme-toggle-btn" title="Dark /Light Mode">
             <Themetoggle />
-                        {/* Expand Menu-knappen */}
-                        <div className="expand__button" onClick={handleExpand}>
-                        <div className="arrow-left" title="Expand NavBar Menu">
-                                      {/* Villkorsstyrd rendering för att välja rätt ikon */}
+            </div>
+                <div className="expand__button" onClick={handleExpand}>
+                <div className="arrow-left" title="Expand NavBar Menu">
+                {/* Villkorsstyrd rendering för att välja rätt ikon för öppen eller stängd */}
               {isExpanded ? (
                 <KeyboardArrowRightIcon style={{ marginRight: "12px", fontSize: "30px", color: "var(--text-color-2)" }} />
               ) : (
                 <KeyboardArrowLeftIcon style={{ marginRight: "12px", fontSize: "30px", color: "var(--text-color-2)" }} />
               )}
-            
-                        </div>
+              </div>
             </div>
             {isExpanded && <ExpandedNavbar handleToggle={handleToggle} />}
             {/* Visa endast hamburgermenyknappen om menyn inte är vald att utökas */}

@@ -166,11 +166,10 @@
 .expand__button {
     color: var(--text-color);
     background-color: var(--primary-color);
-    flex: 1;
-    
+    flex: 1; 
 }
 
-/* Pilen som pekar mot vänster */
+/* Pilen som pekar mot vänster eller höger */
 .expand__button .arrow-left {
     width: 0;
     height: 0;
@@ -230,6 +229,14 @@
   font-size: 16px;
   margin-top: 10px;
 }
+
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus {
+    color: var(--text-color);
+    box-shadow: unset;
+}
+
 
 @media (max-width: 600px) {
     .expand__button {
