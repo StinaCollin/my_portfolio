@@ -148,8 +148,19 @@ const projectinfo = [
       intro: "In this project, I embarked on the journey of building my own Portfolio web application. As an aspiring web developer, I sought out a technology stack that resonated with my preferences and goals. The objective was clear: to create a dynamic and responsive web app that effectively showcases my skills and projects. After exploring various options, I found React JS to be the ideal choice for me. React JS, a powerful JavaScript library for building user interfaces, provided me with the tools and flexibility needed to bring my vision to life. ",
       what: "Throughout the development process, I followed a structured workflow to bring my web application to life. I meticulously planned each step, from initial concept and design to coding and testing. Along the way, I encountered various challenges, such as implementing complex features or troubleshooting unexpected errors. However, through perseverance and problem-solving, I was able to overcome these challenges and successfully deliver a high-quality web application. These challenges provided valuable learning experiences and insights that will inform my future development endeavors.",
       how: `The culmination of my efforts resulted in a fully functional web application that meets the project's objectives and showcases my skills effectively. However, the journey doesn't end here. Looking to the future, I see opportunities for further refinement and expansion of the application. This may include adding new features, optimizing performance, or incorporating user feedback to enhance usability. Reflecting on this project, I've gained valuable insights and knowledge that will undoubtedly influence my future development projects, guiding me towards continued growth and improvement as a web developer.
-
+.
+.
       I chose to structure my portfolio projects around these three points, aiming to offer visitors a comprehensive insight into my work process, the challenges I've overcome, and my future aspirations for each project. This strategy not only demonstrates my technical abilities but also underscores my capacity to adapt, learn, and grow as a developer.`,
+      links: [
+        {
+          link: "https://www.stinacollin.com",
+          title: "Stina Collin Portfolio"
+        },
+        {
+          link: "https://github.com/StinaCollin/my_portfolio",
+          title: "GitHub Repository"
+        }
+      ],
       images: [
         {
           src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite-figma-colorchart.png",
