@@ -82,6 +82,7 @@
   }
   
 
+
   /* Use media queries to make the project details section responsive */
   @media (max-width: 600px) {
     .project-details-content p {

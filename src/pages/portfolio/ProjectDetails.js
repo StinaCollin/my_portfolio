@@ -41,14 +41,19 @@ const handleImageClick = (image, alt) => {
             <p>{info.what}</p>
             <h3>Results and Future:</h3>
             <p>{info.how}</p>
-            <h3>Links to this project:</h3>
-            <ul>
-            {info.links.map((link, index) => (
-            <li key={index}>
-              <a href={link.link}>{link.title}</a>
-            </li>
-          ))}
-        </ul>
+            {info.links.length > 0 && (
+  <>
+    <h3>Links to this project:</h3>
+    <ul>
+      {info.links.map((link, index) => (
+        <li key={index}>
+          <a href={link.link}>{link.title}</a>
+        </li>
+      ))}
+    </ul>
+  </>
+)}
+
           </div>
         </Col>
       </Row>
