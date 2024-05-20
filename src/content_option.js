@@ -154,11 +154,11 @@ const projectinfo = [
       links: [
         {
           link: "https://www.stinacollin.com",
-          title: "Stina Collin Portfolio"
+          title: "Stina Collin Portfolio Website"
         },
         {
           link: "https://github.com/StinaCollin/my_portfolio",
-          title: "GitHub Repository"
+          title: "My Portfolio GitHub Repository"
         }
       ],
       images: [
