@@ -3,14 +3,19 @@ import { WiMoonAltWaningCrescent4 } from "react-icons/wi";
 
 // Theme toggle component to switch between dark and light mode
 const Themetoggle = () => {
-  const [theme, settheme] = useState(localStorage.getItem("theme"));
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+
   const themetoggle = () => {
-    settheme(theme === "dark" ? "light" : "dark");
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    window.location.reload();
   };
+
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme ); 
+    localStorage.setItem('theme', theme); 
   }, [theme]);
+
   return (
     <div className="nav_ac" onClick={themetoggle}>
       <WiMoonAltWaningCrescent4 />

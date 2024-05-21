@@ -1,4 +1,5 @@
-import yourImgUrl from "./assets/images/stina5.png";
+import yourImgUrl from "./assets/images/stina-hero.png";
+import yourImgUrlDark from "./assets/images/stina-hero-dark.png";
 
 
 const logotext = "STINA.I.COLLIN";
@@ -16,6 +17,7 @@ const introdata = {
     },
     description: "Based just outside Stockholm, Sweden, I'm a dedicated developer fueled by a passion for web development. I thrive on the challenge of creating engaging and innovative websites. With a solid background in various aspects of design, I'm always eager to tackle new projects and push the boundaries of what's possible.",
     your_img_url: yourImgUrl,
+    dark_img_url: yourImgUrlDark,
 };
 
 const dataabout = {
@@ -116,27 +118,26 @@ const dataportfolio = [
     },
     {
         img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-        link: "#",
-    },
-    {
-        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Status: Work in progress",
         link: "#",
     },
     {
         img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Status: Work in progress",
         link: "#",
-    },
-    {
-        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+    },    {
+        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
+        description: "Status: Work in progress",
         link: "#",
     },
     {
         img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Status: Work in progress",
+        link: "#",
+    },
+    {
+        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
+        description: "Status: Work in progress",
         link: "#",
     },
 
@@ -170,30 +171,105 @@ const projectinfo = [
           src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite-project-details-summaryfigma.png",
           alt: "Project Image 2, Project Details Summary"
         },
-        {
-          src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
-          alt: "Project Image 3"
-        }
+        // {
+        //   src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
+        //   alt: "Project Image 3"
+        // }
       ]
     },
     {
-        wisdom: "Wisdom of life consists in the elimination of non-essentials.",  
-        intro: "22In this project, I embarked on the journey of building my own Portfolio web application using React JS. As an aspiring web developer, I sought out a technology stack that resonated with my preferences and goals. After exploring various options, I found React JS to be the ideal choice for me. React JS, a powerful JavaScript library for building user interfaces, provided me with the tools and flexibility needed to bring my vision to life. ", 
-        what: "22It was.",
-        how: "I made all.",
+      wisdom: "Patience is the key to success. Keep calm and carry on.",  
+      intro: "2", 
+      what: "",
+      how: "",
+      links: [
+   
+            ],
       images: [
-        "https://www.stinacollin.com/images/stina.png",
-        "https://www.stinacollin.com/images/stina.png",
-        "https://www.stinacollin.com/images/stina.png"
-      ]
-    },    
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+              ]
+        },    
     {
-        wisdom: "The power of creativity lies in the depths of your consciousness. Just find it and let it flow.",  
-        intro: "In this project, I embarked on the journey of building my own Portfolio web application using React JS. As an aspiring web developer, I sought out a technology stack that resonated with my preferences and goals. After exploring various options, I found React JS to be the ideal choice for me. React JS, a powerful JavaScript library for building user interfaces, provided me with the tools and flexibility needed to bring my vision to life. ", 
-        what: "It was.",
-        how: "I made all.",
-      },
-    // Fler objekt kan läggas till här om du behöver
+      wisdom: "Patience is the key to success. Keep calm and carry on.",  
+      intro: "3", 
+      what: "",
+      how: "",
+      links: [
+   
+            ],
+      images: [
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+              ]
+        },  
+    {
+      wisdom: "Patience is the key to success. Keep calm and carry on.",  
+      intro: "4", 
+      what: "",
+      how: "",
+      links: [
+   
+            ],
+      images: [
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+              ]
+        },  
+    {
+      wisdom: "Patience is the key to success. Keep calm and carry on.",  
+      intro: "5", 
+      what: "",
+      how: "",
+      links: [
+   
+            ],
+      images: [
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+              ]
+        },  
+   
   ];
 
   const funnyFacts = [
@@ -225,7 +301,7 @@ const projectinfo = [
 
 
 const contactConfig = {
-    YOUR_EMAIL: "misumi_wear@yahoo.se",
+    YOUR_EMAIL: "stina@stinacollin.com",
     YOUR_FONE: "(+46) 70 825 23 26",
     YOUR_CITY: "Brottby north of Stockholm, Sweden",
     description: "Feel free to contact me for potential projects, collaborations, or employment opportunities. I thrive on new challenges and am eager to contribute my skills and expertise to meaningful work. Let's discuss how I can add value to your team or project—I'm always open to new opportunities.",

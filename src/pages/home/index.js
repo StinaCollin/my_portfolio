@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-//import theme from "../../components/themetoggle";
+// import Themetoggle from "../../components/themetoggle";
 
 export const Home = () => {
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+
+  useEffect(() => {
+    const handleThemeChange = () => {
+      setTheme(localStorage.getItem("theme") || "light");
+    };
+    window.addEventListener("storage", handleThemeChange);
+    return () => window.removeEventListener("storage", handleThemeChange);
+  }, []);
+
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -18,9 +29,9 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex">
           <div
             className="h_bg-image order-1 order-lg-2 h-100"
-            style={{ backgroundImage: `url(${introdata.your_img_url})`,
+            style={{ 
+            backgroundImage: `url(${theme === "dark" ? introdata.dark_img_url : introdata.your_img_url})`,
             opacity: "1",
-            transform: "scaleX(-1)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "100%",
             justifyContent: "left",

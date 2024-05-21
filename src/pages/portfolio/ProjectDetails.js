@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom"; // Importera useParams för att hämta id från URL:en
-import { dataportfolio, projectinfo } from "../../content_option";
+import { dataportfolio, projectinfo } from "../../content_option"; // Importera data från content_option.js
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Row, Col, Modal, ModalBody } from "reactstrap";
 import "./ProjectDetailsStyle.css";
 
+// Here I am using the useParams hook to get the id from the URL. I am using this id to get the specific project from the dataportfolio array and the project information from the projectinfo array. I am also using the useState hook to handle the modal for displaying the enlarged image when a small image is clicked.
 const ProjectDetails = () => {
     const { id } = useParams();
     const project = dataportfolio[id];
@@ -42,20 +43,19 @@ const handleImageClick = (image, alt) => {
             <h3>Results and Future:</h3>
             <p>{info.how}</p>
             {info.links.length > 0 && (
-  <>
-    <h3>Links to this project:</h3>
-    <ul>
-      {info.links.map((link, index) => (
-        <li key={index}>
-          <a href={link.link}>{link.title}</a>
-        </li>
-      ))}
-    </ul>
-  </>
-)}
-
-          </div>
-        </Col>
+        <>
+        <h3>Links to this project:</h3>
+          <ul>
+          {info.links.map((link, index) => (
+            <li key={index}>
+            <a href={link.link}>{link.title}</a>
+            </li>
+          ))}
+          </ul>
+        </>
+        )}
+      </div>
+      </Col>
       </Row>
       <Row>
       <h3 className="project-images-header">Project Detail Images</h3>
