@@ -1,5 +1,5 @@
-import yourImgUrl from "./assets/images/stina-hero.png";
-import yourImgUrlDark from "./assets/images/stina-hero-dark.png";
+import yourImgUrl from "./assets/images/HeroImage.png";
+import yourImgUrlDark from "./assets/images/HeroImageDark.png";
 
 
 const logotext = "STINA.I.COLLIN";
