@@ -112,13 +112,13 @@ const services = [{
 
 const dataportfolio = [
         {
-        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitelayout.png",
+        img: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitehero1.png",
         description: "Building My Own Web Application Using React JS",
         link: "#",
     },
     {
-        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "Status: Work in progress",
+        img: "https://www.stinacollin.com/images/portfolio/mytwatterapphero.png",
+        description: `Twatter, My Cross-Platform App. Project to create a "Twitter"-like app.`,
         link: "#",
     },
     {
@@ -165,21 +165,25 @@ const projectinfo = [
       images: [
         {
           src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite-figma-colorchart.png",
-          alt: "Project Image 1, Color Chart"
+          alt: "Color Chart, Figma Design, Project Image 1"
         },
         {
           src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsite-project-details-summaryfigma.png",
-          alt: "Project Image 2, Project Details Summary"
+          alt: "Project Details Summary, Project Image 2"
         },
-        // {
-        //   src: "https://www.stinacollin.com/images/portfolio/myportfoliowebsitefigma.png",
-        //   alt: "Project Image 3"
-        // }
+        {
+          src: "https://www.stinacollin.com/images/HeroImage.png",
+          alt: "Hero Image for Light Mode, Figma Design, Project Image 3"
+        },
+        {
+          src: "https://www.stinacollin.com/images/HeroImageDark.png",
+          alt: "Hero Image for Dark Mode, Figma Design, Project Image 4"
+        }
       ]
     },
     {
       wisdom: "Patience is the key to success. Keep calm and carry on.",  
-      intro: "2", 
+      intro: "Status: Work in progress", 
       what: "",
       how: "",
       links: [
