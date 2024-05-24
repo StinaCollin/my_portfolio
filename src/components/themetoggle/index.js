@@ -8,7 +8,7 @@ const Themetoggle = () => {
   const themetoggle = () => {
     const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
-    window.location.reload();
+    // window.location.reload();
   };
 
   useEffect(() => {
