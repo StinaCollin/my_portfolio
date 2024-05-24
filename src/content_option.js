@@ -122,17 +122,17 @@ const dataportfolio = [
         link: "#",
     },
     {
-        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "Status: Work in progress",
+        img: "https://www.stinacollin.com/images/portfolio/myuxuiprojectkristallkluster.png",
+        description: "UX/UI Design for a Crystal Shop Website",
         link: "#",
     },    {
-        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "Status: Work in progress",
+        img: "https://www.stinacollin.com/images/portfolio/myfirsthtmlcssprojectlotus.png",
+        description: "My First HTML & CSS Project: Lotus Spa & Retreat Website",
         link: "#",
     },
     {
-        img: "https://www.stinacollin.com/images/portfolio/stina_avatar_dark.png",
-        description: "Status: Work in progress",
+        img: "https://www.stinacollin.com/images/portfolio/myfirsthtmlcssprojectsanctuary.png",
+        description: "My First HTML & CSS Project: Meditatation Vault & Self-Care Website, The Sanctuary",
         link: "#",
     },
     {
@@ -182,10 +182,16 @@ const projectinfo = [
       ]
     },
     {
-      wisdom: "Patience is the key to success. Keep calm and carry on.",  
-      intro: "Status: Work in progress", 
-      what: "",
-      how: "",
+      wisdom: "Dive into the realm of cross-platform creation and witness the transformative magic of innovation in motion.",  
+      intro: `The "Twatter" application is a cross-platform mobile platform that mimics the functionalities of Twitter. 
+      Users can seamlessly create and manage posts and profiles using Firebase Database and React JS. 
+      Key features include user management with easy account creation, editing, and deletion, as well as post management 
+      with the ability to create, delete, and mark posts as private. Additional functionalities such as sorting user lists 
+      alphabetically and automatic deletion of user-associated posts ensure smooth data handling and user experience. 
+      The app is packaged into an APK file, ready for deployment on Android devices, showcasing a comprehensive approach to social 
+      media interaction and management.`,
+      what: `Throughout the development of the "Twatter" application, I embarked on an iterative process, focusing on collaboration and adaptability. I encountered challenges in integrating Firebase Database and React JS seamlessly, requiring careful planning and troubleshooting. Additionally, ensuring a smooth user experience while implementing key features like user and post management posed significant challenges. However, through perseverance and determination, I overcame these obstacles, gaining valuable insights into cross-platform app development and enhancing my problem-solving skills.`,
+      how: `The completion of the "Twatter" application marks a significant milestone in my journey. With its robust functionalities and user-friendly interface, I anticipate positive feedback from users and stakeholders alike. Moving forward, while I may not continue with "Twatter," I am excited about the prospect of applying my skills and knowledge to upcoming projects. Specifically, I'm eager to delve into the development of a gaming application. Exploring the realm of game development presents a thrilling challenge and an opportunity to unleash creativity. Whether it's crafting immersive gameplay experiences or designing captivating graphics, I'm ready to embrace the journey ahead. The future holds exciting possibilities, and I am committed to pursuing my passion for creating innovative and engaging digital experiences.`,
       links: [
    
             ],
@@ -205,8 +211,34 @@ const projectinfo = [
               ]
         },    
     {
-      wisdom: "Patience is the key to success. Keep calm and carry on.",  
-      intro: "3", 
+      wisdom: `Let your creativity sparkle & embark on an enchanting UX/UI design journey for a Crystal Shop Website, where every pixel shines with the brilliance of imagination.`,  
+      intro: "Status: Work in progress 3", 
+      what: "",
+      how: "",
+      links: [
+   
+            ],
+      images: [
+        {
+          src: "https://www.stinacollin.com/images/portfolio/myuxuiprojectfigma.png",
+          alt: "UX/UI Design Wireframe & Components, Figma Design, Project Image 1"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+        {
+          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
+          alt: "Status: Work in progress"
+        },
+              ]
+        },  
+    {
+      wisdom: "In the realm of creation, time bends to determination. Crafting two websites in a week reveals that with unwavering focus, the boundaries of possibility can be beautifully expanded.",  
+      intro: `My First HTML & CSS Projects: Lotus Spa & Retreat Website & Sanctuary Meditatation Vault & Self-Care Website
+      These projects marked my initial venture into HTML and CSS, completed in just one week's time during the first weeks of my studies at IT Högskolan. As part of the introductory course in HTML & CSS, these projects provided me with invaluable hands-on experience in web development.
+      I designed and developed the websites from scratch, focusing on simplicity due to the limited timeframe, yet ensuring they were visually appealing and user-friendly. Throughout the process, I honed my skills in HTML and CSS, learning how to structure web pages, style elements, and optimize layouts for different screen sizes.      
+      These projects were instrumental in building my foundation in web development and ignited my passion for creating beautiful and functional websites. 4`,
       what: "",
       how: "",
       links: [
@@ -228,31 +260,11 @@ const projectinfo = [
               ]
         },  
     {
-      wisdom: "Patience is the key to success. Keep calm and carry on.",  
-      intro: "4", 
-      what: "",
-      how: "",
-      links: [
-   
-            ],
-      images: [
-        {
-          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
-          alt: "Status: Work in progress"
-        },
-        {
-          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
-          alt: "Status: Work in progress"
-        },
-        {
-          src: "https://www.stinacollin.com/images/portfolio/workinprogress.png",
-          alt: "Status: Work in progress"
-        },
-              ]
-        },  
-    {
-      wisdom: "Patience is the key to success. Keep calm and carry on.",  
-      intro: "5", 
+      wisdom: "In the realm of creation, time bends to determination. Crafting two websites in a week reveals that with unwavering focus, the boundaries of possibility can be beautifully expanded.", 
+      intro: `My First HTML & CSS Projects: Lotus Spa & Retreat Website & Sanctuary Meditatation Vault & Self-Care Website
+      These projects marked my initial venture into HTML and CSS, completed in just one week's time during the first weeks of my studies at IT Högskolan. As part of the introductory course in HTML & CSS, these projects provided me with invaluable hands-on experience in web development.
+      I designed and developed the websites from scratch, focusing on simplicity due to the limited timeframe, yet ensuring they were visually appealing and user-friendly. Throughout the process, I honed my skills in HTML and CSS, learning how to structure web pages, style elements, and optimize layouts for different screen sizes.      
+      These projects were instrumental in building my foundation in web development and ignited my passion for creating beautiful and functional websites. 5`,
       what: "",
       how: "",
       links: [
