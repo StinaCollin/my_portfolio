@@ -308,7 +308,7 @@ const projectinfo = [
         fact: "I have a hobby business selling crystals.",
     },
     {
-        fact: "I've been practicing Yoga for over 25 years, since age of 14.",
+        fact: "I've been practicing Yoga for 25 years, since age of 14.",
     },
     {
         fact:  `"` ,
