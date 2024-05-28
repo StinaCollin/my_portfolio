@@ -11,11 +11,12 @@ const meta = {
 const introdata = {
     title: "Hi there, I'm Stina Collin!",
     animated: {
-        first: "I'm a passionate developer...",
-        second: "I love coding and...",
-        third: "Turning ideas into magical websites <3",
+        first: "I'm a passionate developer!",
+        second: "I love coding and transforming...",
+        third: "ideas into reality & magical websites <3",
     },
     description: "Based just outside Stockholm, Sweden, I'm a dedicated developer fueled by a passion for web development. I thrive on the challenge of creating engaging and innovative websites. With a solid background in various aspects of design, I'm always eager to tackle new projects and push the boundaries of what's possible.",
+    myvision: `"My aim is to sculpt digital realms where innovation and creativity intertwine, illuminating the web as a tapestry of stars in an infinite night sky within a boundless universe."`,
     your_img_url: yourImgUrl,
     dark_img_url: yourImgUrlDark,
 };

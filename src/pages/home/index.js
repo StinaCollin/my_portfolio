@@ -28,9 +28,12 @@ export const Home = () => {
         </Helmet>
         <div className="intro_sec d-block d-lg-flex">
           <div
-            className="h_bg-image order-1 order-lg-1 h-100"
+            className="h_bg-image order-1 order-lg-2 h-100"
             style={{ 
             backgroundImage: `url(${theme === "dark" ? introdata.dark_img_url : introdata.your_img_url})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "90%",
+            marginLeft: "1rem",
             opacity: "1",
            }}
           ></div>
@@ -52,7 +55,9 @@ export const Home = () => {
                     }}
                   />
                 </h1>
+                <h2 className="my-vision">{introdata.myvision} / Stina Collin</h2>
                 <p className="mb-1x">{introdata.description}</p>
+                
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
