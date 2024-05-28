@@ -32,8 +32,8 @@ export const Home = () => {
             style={{ 
             backgroundImage: `url(${theme === "dark" ? introdata.dark_img_url : introdata.your_img_url})`,
             backgroundRepeat: "no-repeat",
-            backgroundSize: "90%",
-            marginLeft: "1rem",
+            backgroundSize: "100%",
+            marginLeft: "2rem",
             opacity: "1",
            }}
           ></div>

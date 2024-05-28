@@ -35,7 +35,12 @@ section {
     min-height: 700px;
     height: 100vh;
     margin-top: -60px;
-    margin-left: 1.5rem;
+}
+
+@media (max-width:1166px) {
+    .intro_sec {
+        margin-left: 2.5rem;
+    }
 }
 
 @media (max-width:991.98px) {
